@@ -5,3 +5,5 @@ titanic dataset, available on kaggle.
 You will notice along your data science journey the importance of understanding your data first, before going through
 the creation of any machine learning model. The better you understand your data, the better your models you will understand 
 which machine learning algorithm to use.  
+![alt text](https://github.com/keitazoumana/simple-way-to-understand-your-data/blob/master/titanic_image.jpg)
+
