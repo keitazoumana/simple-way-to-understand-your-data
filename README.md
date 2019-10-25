@@ -12,11 +12,46 @@ which machine learning algorithm to use.
 * Understand the problem that is being solved before try to write any code.   
 * Have a simple explanation to demonstrate the logic used in the exploratory data analysis process.   
 
-## What you will learn ?  
-* import libraries using ***import*** function.   
-* read your data using ***pandas*** library.   
-* determine the number of features and observations using ***df.shape*** function.  
-* describe your ***pandas.DataFrame()*** with ***df.describe()*** and ***df.column_name.value_counts()***  
-* perform univariate analysis technics like ***Probability Density Function (PDF)***, ***Cumulative Density Function (CDF)***  
-***boxplot*** and ***violin plot***.  
-* numerical and categorical column vectorization
+# BELOW IS WHAT YOU WILL BE ABLE TO DO AFTER COMPLETING THIS NOTEBOOK.
+
+### I- PROBLEM UNDERSTANDING
+
+### II- EXPLORATORY DATA ANALYSIS  
+
+        II-1 SOME STATISTICS ON THE DATASET  
+        II-2 UNIVARIATE ANALYSIS  
+
+        II-2-1 Univariate analysis for categorical - non continuous numerical features.  
+
+        II-2-2 Univariate analysis (PDF,CDF, boxplot, violin plot) for numerical-continuous features.  
+
+### III- VECTORIZATION OF OUR FEATURES  
+        III-0 Data cleaning before vectorization  
+
+        III-1 Apply standardization technics to numerical features.  
+
+        III-2 Apply binarization/one-hot encoding technics to categorical features.  
+
+        III-0 Data cleaning before vectorization  
+            III-0-1 Data cleaning on Cabin feature  
+            III-0-2 Data cleaning on Home.dest feature  
+            III-0-3 Data cleaning on Embarked feature  
+            III-0-4 Data cleaning on Sibs feature  
+            III-0-5 Data cleaning on Parch feature  
+
+        III-1 Apply standardization technics to numerical features  
+            III-1-1 Standardization: Age feature  
+            III-1-2 Standardization: Fare feature  
+
+        III-2 Apply binarization/one-hot encoding technics to categorical features  
+            III-2-1 Binarization: Sex feature  
+            III-2-2 Binarization: Cabin feature  
+            III-2-3 Binarization: Home dest feature  
+            III-2-4 Binarization: Embarked feature  
+            III-2-5 Binarization: P-class feature  
+            III-2-6 Binarization: sibsp feature  
+            III-2-7 Binarization: parch feature  
+            III-2-8 Binarization: boat feature  
+            
+### IV- VISUALIZATION USING T-SNE  
+        IV-1 T-Distributed Stochastic Neighbourhood Embedding (t-SNE)  
