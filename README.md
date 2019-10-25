@@ -1,4 +1,4 @@
-# A Simple-way-to-understand-your-data   
+#  SIMPLE WAY TO UNDERSTAND YOUR DATA  
 
 This is a repository to help understand the basics related to data analysis. It has been created using the famous 
 titanic dataset, available on kaggle. 
@@ -7,16 +7,16 @@ the creation of any machine learning model. The better you understand your data,
 which machine learning algorithm to use.  
 ![alt text](https://github.com/keitazoumana/simple-way-to-understand-your-data/blob/master/titanic_image.jpg)
 
-## Goal of this repo  
+## GOAL OF THIS REPO ? 
 * Help you analyse your dataset. 
 * Understand the problem that is being solved before try to write any code.   
 * Have a simple explanation to demonstrate the logic used in the exploratory data analysis process.   
 
-# BELOW IS WHAT YOU WILL BE ABLE TO DO AFTER COMPLETING THIS NOTEBOOK.
+## BELOW IS WHAT YOU WILL BE ABLE TO DO AFTER COMPLETING THIS NOTEBOOK.
 
-### I- PROBLEM UNDERSTANDING
+#### I- PROBLEM UNDERSTANDING
 
-### II- EXPLORATORY DATA ANALYSIS  
+#### II- EXPLORATORY DATA ANALYSIS  
 
         II-1 SOME STATISTICS ON THE DATASET  
         II-2 UNIVARIATE ANALYSIS  
@@ -25,7 +25,7 @@ which machine learning algorithm to use.
 
         II-2-2 Univariate analysis (PDF,CDF, boxplot, violin plot) for numerical-continuous features.  
 
-### III- VECTORIZATION OF OUR FEATURES  
+#### III- VECTORIZATION OF OUR FEATURES  
         III-0 Data cleaning before vectorization  
 
         III-1 Apply standardization technics to numerical features.  
@@ -53,5 +53,5 @@ which machine learning algorithm to use.
             III-2-7 Binarization: parch feature  
             III-2-8 Binarization: boat feature  
             
-### IV- VISUALIZATION USING T-SNE  
+#### IV- VISUALIZATION USING T-SNE  
         IV-1 T-Distributed Stochastic Neighbourhood Embedding (t-SNE)  
